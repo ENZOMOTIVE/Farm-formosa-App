@@ -1,41 +1,25 @@
 # Farm Formosa App
 
-## Project Tags
+> Farm Formosa App is a mobile application project with the structure needed for Android, wallet, or React Native style development.
 
-- `Mobile`
+## The Story
 
-## Overview
+Farm Formosa App starts with a simple goal: shape a mobile experience that is easy to install, test, and hand off. Its shape tells the same story: the product interface, the service layer, and the mobile surface live close enough together that a maintainer can see the project as a whole before diving into individual folders.
 
-Farm Formosa App is a mobile application project with native or React Native/Expo structure.
+## What It Includes
 
-## Features
+- A user-facing surface for the product, demo, dashboard, or static experience.
+- A service layer for APIs, realtime behavior, bot logic, or server-side workflows.
+- Mobile-ready project structure for wallet, Android, or app-focused development.
 
-- User-facing frontend or app interface
-- Mobile app structure for Android, Expo, or React Native development
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `.gitattributes` | project file or folder |
+| `farm-formosa` | project file or folder |
 
-- React
-- Expo
-- React Native
-- Node.js
-- TypeScript
-- JavaScript
-
-## Project Structure
-
-- `.gitattributes` - project file or directory
-- `farm-formosa` - project file or directory
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-- Node.js 18+
-- Android Studio, Expo CLI, or platform tooling as required by the app
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/Farm-formosa-App.git
@@ -48,29 +32,37 @@ npm install
 npm start
 ```
 
-## Commands
+## Command Surface
 
-- `farm-formosa/package.json`: `start`, `reset-project`, `android`, `ios`, `web`, `lint`
+| Area | Commands |
+| --- | --- |
+| `farm-formosa/package.json` | `start`, `reset-project`, `android`, `ios`, `web`, `lint` |
 
 ## Configuration
 
-- Keep platform-specific signing credentials and mobile build secrets outside the repository.
+- Document API ports, database URLs, third-party credentials, and service endpoints in `.env.example` before deployment.
+- Keep signing keys, platform credentials, and build profiles outside the repository.
 
-## Testing and Quality
+## Quality Checks
 
 - From `farm-formosa`, run `npm run lint`.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Add screenshots or a short user flow so visitors can see the interface before running it.
+- Document the main API routes, bot events, or service responsibilities with example inputs and outputs.
+- Add emulator, device, signing, and release notes for the mobile workflow.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/Farm-formosa-App` |
+| Categories | `Mobile` |
+| Primary stack | React, React Native / Expo, Node.js, TypeScript, JavaScript |
+
 
 ## License
 
