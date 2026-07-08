@@ -1,10 +1,22 @@
 # Farm Formosa App
 
-> Farm Formosa App is a mobile application project with the structure needed for Android, wallet, or React Native style development.
+> Farm Formosa App is a React Native implementation for a farm-focused mobile application.
 
 ## The Story
 
 Farm Formosa App starts with a simple goal: shape a mobile experience that is easy to install, test, and hand off. Its shape tells the same story: the product interface, the service layer, and the mobile surface live close enough together that a maintainer can see the project as a whole before diving into individual folders.
+
+## Detailed Description
+
+Farm Formosa App is a React Native implementation for a farm-focused mobile application. This README is meant to explain the project like a handoff note: what the idea is, why the repository exists, and how someone can start working with it without opening every file first.
+
+The mobile workflow matters as much as the code. Device setup, emulator notes, signing expectations, and release commands should be kept visible so the app can move from local development to a real handset without guesswork.
+
+At the top level, the most important entry points are `farm-formosa`. Together they show the current boundary of the project and make it easier to separate product code, support files, documentation, and experiments.
+
+The declared Node surfaces include `farm-formosa` (scripts: `start`, `reset-project`, `android`, `ios`, `web`). Those package files are the best starting points for understanding how the app runs, builds, or validates itself.
+
+The visible stack currently points to `React`, `React Native / Expo`, `Node.js`, `TypeScript`, and `JavaScript`. Keep this list honest as the project changes so the README remains useful as a first technical map.
 
 ## What It Includes
 
