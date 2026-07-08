@@ -1,29 +1,41 @@
 # Farm Formosa App
 
-`Farm-formosa-App` is a React-based application with frontend source files and package metadata for local development.
+## Project Tags
+
+- `Mobile`
+
+## Overview
+
+Farm Formosa App is a mobile application project with native or React Native/Expo structure.
 
 ## Features
 
-- React-based frontend with a local development workflow
+- User-facing frontend or app interface
+- Mobile app structure for Android, Expo, or React Native development
 
 ## Tech Stack
 
 - React
-- Vite
+- Expo
+- React Native
+- Node.js
+- TypeScript
+- JavaScript
 
 ## Project Structure
 
-- `.gitattributes` - project file
-- `README.md` - project documentation
-- `farm-formosa` - project directory
+- `.gitattributes` - project file or directory
+- `farm-formosa` - project file or directory
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Node.js 18+
+- Android Studio, Expo CLI, or platform tooling as required by the app
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/Farm-formosa-App.git
@@ -36,30 +48,30 @@ npm install
 npm start
 ```
 
-## Available Commands
+## Commands
 
-- `farm-formosa/package.json` - scripts: `start`, `reset-project`, `android`, `ios`, `web`, `lint`
+- `farm-formosa/package.json`: `start`, `reset-project`, `android`, `ios`, `web`, `lint`
 
 ## Configuration
 
-- No required environment variables are documented yet. Add them here when the project needs configuration.
+- Keep platform-specific signing credentials and mobile build secrets outside the repository.
 
 ## Testing and Quality
 
 - From `farm-formosa`, run `npm run lint`.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
